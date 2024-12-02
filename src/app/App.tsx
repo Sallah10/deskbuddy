@@ -1,6 +1,7 @@
 import * as Pieces from "@pieces.app/pieces-os-client";
 import { Application } from "@pieces.app/pieces-os-client";
 import { connect } from "./utils/Connect";
+import Stack from "./stack"
 
 // types
 
@@ -11,7 +12,8 @@ export var applicationData: Application;
 function App() {
   return (
     <>
-      <div className="text-3xl">Deskbuddy</div>
+      <div className="text-3xl mx-auto">Deskbuddy</div>
+      <Stack/>
     </>
   );
 }
