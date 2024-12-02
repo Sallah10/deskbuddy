@@ -12,8 +12,10 @@ export var applicationData: Application;
 function App() {
   return (
     <>
-      <div className="text-3xl mx-auto">Deskbuddy</div>
-      <Stack/>
+      <div className="text-3xl container">
+        Deskbuddy 
+        <Stack/>
+      </div>
     </>
   );
 }
